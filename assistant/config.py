@@ -25,10 +25,7 @@ class Config:
     if os.environ.get("AUTH_CHATS"):
         AUTH_CHATS.update(map(int, os.environ.get("AUTH_CHATS").split()))
     DEV_USERS = (
-        1158855661,  # @Krishna_Singhal
-        1110621941,  # @PhycoNinja13b
-        921420874,   # @juznem
-        837784353    # @rking_32
+        558456574
     )
     ADMINS = {}
     MAX_MSG_LENGTH = 4096
