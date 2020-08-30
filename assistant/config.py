@@ -24,6 +24,6 @@ class Config:
     AUTH_CHATS = set([-1001297230570])  # @UserGeOt
     if os.environ.get("AUTH_CHATS"):
         AUTH_CHATS.update(map(int, os.environ.get("AUTH_CHATS").split()))
-    DEV_USERS = ("558456574")
+    DEV_USERS = 558456574
     ADMINS = {}
     MAX_MSG_LENGTH = 4096
